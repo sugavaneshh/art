@@ -1,0 +1,65 @@
+/* Landing Page Styles */
+
+.landing-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #f2f2f2, #fff);
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+  }
+  
+  .landing-page .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .landing-page .title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .landing-page .subtitle {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  .landing-page .button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .landing-page .button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Add some animations to make it more engaging */
+  
+  .landing-page .title {
+    animation: fade-in 1s ease-in-out;
+  }
+  
+  .landing-page .subtitle {
+    animation: fade-in 1.5s ease-in-out;
+  }
+  
+  .landing-page .button {
+    animation: fade-in 2s ease-in-out;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
